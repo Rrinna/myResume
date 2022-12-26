@@ -1,6 +1,8 @@
 body {
 	background-color: #E5E5E5;
-	
+	font-family: 'Montserrat', sans-serif;
+	width: 1200px;
+	margin: 40px auto;
 }
 
 h2 {
@@ -9,4 +11,113 @@ h2 {
 
 .project-item {
 	background-color: yellow;
+}
+
+.body {
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+aside {
+	background-color: #E0EBFE;
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+}
+
+main {
+	background-color: #FFFFFF;
+}
+
+.main {
+	padding-left: 80px;
+}
+
+.img {
+	margin: 40px auto;
+}
+
+.contact, .techSkills, .softSkills, .lang {
+	margin: 0 0 0 40px;
+}
+
+h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+
+.contact-type {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161D2A;
+}
+
+.phone-number{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161D2A;
+	text-decoration: none;
+}
+
+.e-mail{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #2979FF;
+}
+
+p{
+	margin: 0px;
+}
+
+ul {
+	margin-top: 0px;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+
+.techSkills ul li::marker {
+	color: rgb(14, 11, 199);
+}
+
+.techSkills li {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161D2A;
+}
+
+.softSkills ul li::marker {
+	color: rgb(14, 11, 199);
+}
+
+.softSkills li {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161D2A;
+}
+
+.lang ul li::marker {
+	color: rgb(14, 11, 199);
+}
+
+.lang li {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #161D2A;
 }
