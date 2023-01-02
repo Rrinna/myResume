@@ -1,7 +1,7 @@
 body {
 	background-color: #E5E5E5;
 	font-family: 'Montserrat', sans-serif;
-	width: 1200px;
+	max-width: 1200px;
 	margin: 40px auto;
 }
 
@@ -11,9 +11,10 @@ h2 {
 
 .body {
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
+
+ 
 	background-color: #FFFFFF;
+	flex-wrap: wrap;
 }
 
 aside {
